@@ -1,1 +1,2 @@
-Curso de CSS - Jossua
+Curso de CSS 
+Practicando las funciones de git
