@@ -11,6 +11,7 @@
     text-shadow: 1px 1px #000;
 }
 
+
 body{
 
     margin:0;
@@ -20,11 +21,50 @@ body{
 }
 
 .hero{
-
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 800px;
     background-image: url(img/corporate_building.png);
-    background-size: cover;
+   background-size: cover; 
+}
+
+body, menu{
+    margin:0;
+}
+menu{
+
+    background-color: black;
+    /*width: 10em;           /*ancho para menu vertical*/ 
+    /*min-height: 100vh;     /*1005 del tamaño vertical*/ 
+}
+menu ul{
+
+    margin:0;
+    padding: 0;
+    display: flex;
+    /*flex-direction: column;     /*menu vertical*/ 
+}
+
+menu li{
+
+    padding: 1em;
+    list-style: none;
+}
+
+menu a {
+    text-decoration: none;
+    color:white;
+    color: rgba (255, 255, 255, 0.6);
+
+}
+
+menu a:hover{
+
+    color: white;
+}
+
+.main{
+
+    display:flex;
 }
