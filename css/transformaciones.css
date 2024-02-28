@@ -1,0 +1,20 @@
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: #3a3ae3;
+    transform: rotate(45deg) scale(1.5);
+    margin:100px;
+}
+
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: #0ad436;
+    transform: rotate(30deg) scale(1.5);
+    transition: scale(2) 1s ease-in;
+    margin:100px;
+}
+
+.box-2:hover{
+    transform: rotate(30deg) scale(2);
+}

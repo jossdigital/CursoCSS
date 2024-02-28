@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: auto;
+    gap:10px;
+   
+}
+
+.grid-container > *{
+    background-color: #2567eb;
+    color: #ffffff;
+    border: 1px solid #330000;
+    text-align: center;
+    padding: 20px;
+}
+
+nav, 
+footer{
+    grid-column: 1 / span 3;
+}
+
+@media (max-width: 600px){
+
+    aside{
+        display: none;
+    }
+
+    article{
+        grid-column: 1 / span 3;
+    }
+
+    .grid-container {
+        grid-template-rows: 1fr 10fr;
+    }
+
+}
